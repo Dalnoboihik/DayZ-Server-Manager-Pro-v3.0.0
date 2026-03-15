@@ -938,7 +938,7 @@ HTML_TEMPLATE = """
     <div class="container">
         <h1>
             🎮 DayZ Server Manager Pro v3.0.0
-            <span style="font-size: 14px; color: #888;">Оптимизировано для 5.42.211.136</span>
+            <span style="font-size: 14px; color: #888;">Gorbunovski v3.0.0</span>
         </h1>
         
         <!-- Вкладки -->
