@@ -6,5 +6,13 @@
     "query_port": 2303,
     "rcon_port": 2910,
     "rcon_password": "1232"
+  },
+  {
+    "name": "My DayZ Server",
+    "host": "5.42.211.136",
+    "game_port": 2302,
+    "query_port": 2303,
+    "rcon_port": 2910,
+    "rcon_password": "3xby13xby1"
   }
 ]
