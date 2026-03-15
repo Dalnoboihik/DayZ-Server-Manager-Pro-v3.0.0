@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Мой DayZ сервер",
+    "host": "12.11.22.33",
+    "game_port": 2302,
+    "query_port": 2303,
+    "rcon_port": 2910,
+    "rcon_password": "1232"
+  }
+]

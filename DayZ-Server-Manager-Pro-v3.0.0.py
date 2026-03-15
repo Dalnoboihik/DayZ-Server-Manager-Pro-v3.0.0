@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-DayZ Server Manager Pro v3.0.0 - ФИНАЛЬНАЯ ВЕРСИЯ
-Оптимизировано для сервера: 5.42.211.136
-Порты: Game-2302, Query-2303, RCON-2910
+DayZ Server Manager Pro v3.0.0
+Оптимизировано для сервера DayZ
 """
 
 import socket
@@ -21,11 +20,11 @@ from flask import Flask, render_template_string, request, jsonify
 import secrets
 
 # ================== Конфигурация сервера ==================
-SERVER_IP = "5.42.211.136"
+SERVER_IP = "12.11.22.33"
 GAME_PORT = 2302
 QUERY_PORT = 2303
 RCON_PORT = 2910
-RCON_PASSWORD = "3xby13xby1"
+RCON_PASSWORD = "1232"
 
 VERSION = "3.0.0"
 
@@ -68,7 +67,7 @@ class BanInfo:
 class BattlEyeRCONClient:
     """
     Правильный RCON клиент для DayZ (BattlEye протокол)
-    Порт RCON: 2910 (как на вашем сервере)
+    Порт RCON:(как на вашем сервере)
     """
     
     def __init__(self, host: str, port: int, password: str):
@@ -181,7 +180,7 @@ class BattlEyeRCONClient:
 class DayZQueryClient:
     """
     Клиент для Source Query (A2S)
-    Порт Query: 2303 (как на вашем сервере)
+    Порт Query: (как на вашем сервере)
     """
     
     def __init__(self, host: str, port: int):
